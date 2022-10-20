@@ -1,0 +1,16 @@
+[
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "/home/mikaleb/Projects/Influentia/pages/inspire.vue",
+    "chunkName": "pages/inspire",
+    "_name": "_3ccb2b92"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/mikaleb/Projects/Influentia/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_6f25dd22"
+  }
+]
