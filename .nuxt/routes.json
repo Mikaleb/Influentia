@@ -7,6 +7,13 @@
     "_name": "_3ccb2b92"
   },
   {
+    "name": "login",
+    "path": "/login",
+    "component": "/home/mikaleb/Projects/Influentia/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_dbd696f4"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/home/mikaleb/Projects/Influentia/pages/index.vue",
