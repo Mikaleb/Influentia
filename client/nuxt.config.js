@@ -72,6 +72,10 @@ export default {
     baseURL: "/",
   },
 
+  publicRuntimeConfig: {
+    stripePublishableKey: process.env.STRIPE_API_PUBLIC_KEY,
+  },
+
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ["~/assets/variables.scss"],

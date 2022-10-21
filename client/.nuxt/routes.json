@@ -14,6 +14,20 @@
     "_name": "_dbd696f4"
   },
   {
+    "name": "article-create",
+    "path": "/article/create",
+    "component": "/home/mikaleb/Projects/Influentia/pages/article/create.vue",
+    "chunkName": "pages/article/create",
+    "_name": "_7e0dea30"
+  },
+  {
+    "name": "article-id",
+    "path": "/article/:id?",
+    "component": "/home/mikaleb/Projects/Influentia/pages/article/_id.vue",
+    "chunkName": "pages/article/_id",
+    "_name": "_2a4b427e"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/home/mikaleb/Projects/Influentia/pages/index.vue",

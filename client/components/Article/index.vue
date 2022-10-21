@@ -3,10 +3,7 @@
     <h1 class="text-center">Articles</h1>
 
     <div v-for="article in articles.slice(articleNb.start, articleNb.end)">
-      <article :key="article.id">
-        <h2>{{ article.title }}</h2>
-        <p>{{ article.body }}</p>
-      </article>
+      <article-id :article="article"></article-id>
     </div>
     <v-pagination v-model="page" :length="pageLength"></v-pagination>
   </div>
@@ -16,6 +13,9 @@
 import Vue from "vue";
 export default Vue.extend({
   name: "Articles",
+  components: {
+    ArticleId: () => import("~/components/Article/_id.vue"),
+  },
   data() {
     return {
       nbArticlePerPage: 5,

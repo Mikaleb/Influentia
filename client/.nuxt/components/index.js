@@ -1,6 +1,4 @@
-export { default as VuetifyLogo } from '../../components/VuetifyLogo.vue'
-export { default as ArticlesCreate } from '../../components/Articles/create.vue'
-export { default as Articles } from '../../components/Articles/index.vue'
+
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
