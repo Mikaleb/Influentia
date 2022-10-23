@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- <ArticleCreate></ArticleCreate> -->
+    <ArticleCreate></ArticleCreate>
   </div>
 </template>
 
